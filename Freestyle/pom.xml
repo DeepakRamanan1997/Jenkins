@@ -36,7 +36,7 @@
                 <version>3.2.3</version>
                 <configuration>
                     <warName>hello</warName>
-                    <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+                    <webXml>/var/lib/jenkins/workspace/freestyle/Freestyle/src/main/webapp/WEB-INF/</webXml>
                 </configuration>
             </plugin>
         </plugins>
