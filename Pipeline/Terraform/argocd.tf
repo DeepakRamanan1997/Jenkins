@@ -7,12 +7,12 @@ terraform {
   }
 }
 provider "kubernetes" {
-  config_path = "~/.kube/config"  # Update this path if your kubeconfig is located elsewhere
+  config_path = "/var/lib/jenkins/.kube/config"  # Update this path if your kubeconfig is located elsewhere
 }
 
 provider "helm" {
   kubernetes {
-    config_path = "~/.kube/config"  # Update this path if your kubeconfig is located elsewhere
+    config_path = "/var/lib/jenkins/.kube/config"  # Update this path if your kubeconfig is located elsewhere
   }
 }
 
